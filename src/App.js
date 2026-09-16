@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.css";            
-import NotificationToast from "./Components/NotificationToast/NotificationToast";
+import "./App.css";                     
+import StudentManager from "./Components/StudentManager/StudentManager";
 
 const App = () => {
   return (
     <div className="App">  
-      <NotificationToast/>
+      <StudentManager/>
     </div>
   );
 };
