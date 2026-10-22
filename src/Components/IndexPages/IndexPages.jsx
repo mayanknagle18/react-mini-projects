@@ -12,6 +12,9 @@ const IndexPages = () => {
                         <Link to="/age-calculator">Age Calculator</Link>
                     </li>
                     <li>
+                        <Link to="/auth-comp">Auth Component</Link>
+                    </li>
+                    <li>
                         <Link to="/bmi-calculator">BMI Calculator</Link>
                     </li>
                     <li>
@@ -81,6 +84,9 @@ const IndexPages = () => {
                         <Link to="/like-dislike-counter">Like And Dislike Counter</Link>
                     </li>
                     <li>
+                        <Link to="/media-gallery">Media Gallery</Link>
+                    </li>
+                    <li>
                         <Link to="/modal-popup">Modal Popup</Link>
                     </li>
                     <li>
@@ -136,6 +142,9 @@ const IndexPages = () => {
                     </li>
                     <li>
                         <Link to="/tabs-component">Tabs Component</Link>
+                    </li>
+                    <li>
+                        <Link to="/tooltip-comp">Tooltip Component</Link>
                     </li>
                     <li>
                         <Link to="/temperature-converter">Temperature Converter</Link>

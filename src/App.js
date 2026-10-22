@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router";
 import IndexPages from "./Components/IndexPages/IndexPages";
 import AgeCalculator from "./Components/AgeCalculator/AgeCalculator"; 
+import AuthComp from "./Components/AuthComp/AuthComp";
 import BmiCalculator from "./Components/BmiCalculator/BmiCalculator";
 import BookManager from "./Components/BookManager/BookManager";
 import CalculatorMain from "./Components/Calculator/CalculatorMain";
@@ -26,6 +27,7 @@ import FormValidation from "./Components/FormValidation/FormValidation";
 import ImageGallery from "./Components/ImageGallery/ImageGallery";
 import KeyboardEventTracker from "./Components/KeyboardEventTracker/KeyboardEventTracker";
 import LikeAndDislikeCounter from "./Components/LikeAndDislikeCounter/LikeAndDislikeCounter";
+import MediaGallery from "./Components/MediaGallery/MediaGallery";
 import ModalPopup from "./Components/ModalPopup/ModalPopup";
 import MousePositionTrackers from "./Components/MousePositionTrackers/MousePositionTrackers";
 import MovieSearch from "./Components/MovieSearch/MovieSearch";
@@ -50,6 +52,7 @@ import TextCaseConverter from "./Components/TextCaseConverter/TextCaseConverter"
 import TipCalculator from "./Components/TipCalculator/TipCalculator";
 import ToDoAppMain from "./Components/ToDoApp/ToDoAppMain";
 import ToggleTheme from "./Components/ToggleTheme/ToggleTheme";
+import TooltipComp from "./Components/TooltipComp/TooltipComp";
 import TrafficLight from "./Components/TrafficLight/TrafficLight";
 import UserCrud from "./Components/UserCrud/UserCrud";
 import UserSearch from "./Components/UserSearch/UserSearch";
@@ -63,6 +66,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<IndexPages />} />
         <Route path="/age-calculator" element={<AgeCalculator />} /> 
+        <Route path="/auth-comp" element={<AuthComp />} /> 
         <Route path="/bmi-calculator" element={<BmiCalculator />} />
         <Route path="/book-manager" element={<BookManager />} />
         <Route path="/calculator" element={<CalculatorMain />} />
@@ -86,6 +90,7 @@ const App = () => {
         <Route path="/image-gallery" element={<ImageGallery />} />
         <Route path="/keyboard-event-tracker" element={<KeyboardEventTracker />} />
         <Route path="/like-dislike-counter" element={<LikeAndDislikeCounter />} />
+        <Route path="/media-gallery" element={<MediaGallery />} />
         <Route path="/modal-popup" element={<ModalPopup />} />
         <Route path="/mouse-position-tracker" element={<MousePositionTrackers />} />
         <Route path="/movie-search" element={<MovieSearch />} />
@@ -110,6 +115,7 @@ const App = () => {
         <Route path="/tip-calculator" element={<TipCalculator />} />
         <Route path="/to-do-app" element={<ToDoAppMain />} />
         <Route path="/toggle-theme" element={<ToggleTheme />} />
+        <Route path="/tooltip-comp" element={<TooltipComp />} />
         <Route path="/traffic-light" element={<TrafficLight />} />
         <Route path="/user-crud" element={<UserCrud />} />
         <Route path="/user-search" element={<UserSearch />} />
