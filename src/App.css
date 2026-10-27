@@ -662,6 +662,10 @@ input[type="number"] {
 .bw_faq_acc_btn .rotate {
   transform: rotate(180deg);
 }
+.bw_faq_acc_btn img {
+  width: 16px;
+  height: auto;
+}
 .bw_faq_acc_body {
   padding: 12px 20px;
   font-size: 18px;
@@ -1401,7 +1405,7 @@ input[type="number"] {
   background-color: #fff;
 }
 .bw_selected_emoji span {
-  font-size: 40px;
+  font-size: 24px;
   line-height: 1;
 }
 .bw_selected_emoji button {
@@ -3633,6 +3637,9 @@ input[type="number"] {
     line-height: 26px;
   }
   /* auth comp */
+  .bw_selected_emoji span {
+    font-size: 20px;
+  }
 }
 @media (max-width: 767px) {
   .bw_container {
@@ -3694,7 +3701,7 @@ input[type="number"] {
   }
   .bw_faq_acc_btn img {
     width: 14px;
-    height: 14px;
+    height: auto;
   }
   /* faq accordion */
   /* image gallery */
